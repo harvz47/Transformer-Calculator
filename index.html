@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <title>Basic Calculator</title>
+
+</head>
+
+<body style="background-image: url('optimuscalculator\ .jpg');  background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center;
+background-size: cover;">
+    <!--Navigation-Bar-->
+    <nav class=" navbar bg-warning navbar-expand-lg sticky-top py-1" style="font-family:Gemunu Libre;">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: red; text-shadow:1px 1px black;" href="#page-top"><img
+                    src="Autobots.png" style="width:40px;">TRANSFORMERS CALCULATOR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="tog1" class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-center text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link fw-bolder" style="color: red; text-shadow:1px 1px black;"
+                            href="#About">About</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bolder" style="color: red; text-shadow:1px 1px black;"
+                            href="#Characters">Characters</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bolder" style="color: red; text-shadow:1px 1px black;"
+                            href="#Calculator">Calculator</a></li>
+
+                </ul>
+                <form class="d-flex ms-auto" role="search">
+                    <input type="text" class="form-control rounded-0" style="color: red; text-shadow:1px 1px black;"
+                        placeholder="Search" aria-label="Search">
+                    <button type="submit" id="button1" class="btn btn-primary rounded-0"
+                        style="color: yellow; text-shadow:1px 1px black;">Search</i></button>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!---About-->
+    <section id="About">
+        <div class="col-md mt-4 text-center">
+            <img src="transform.png" style="width: 25rem;">
+        </div>
+        <div class="container mb-5 " style="font-family:Gemunu Libre;">
+            <!--Title-->
+            <div class="row pt-5 pb-3 my-3">
+                <div class="col-md text-center">
+                    <img src="Autobots.png" style="width:15rem;">
+                </div>
+                <!--Mission-->
+                <div class="col-md my-2 text-center">
+                    <h1 Style="color: red; text-shadow:2px 2px black;  font-size:50px; font-weight:bold;">AUTOBOTS</h1>
+                    <p class="my-2 fw-bolder" style="color:blue; font-size: 17px;">The Autobots are the main
+                        protagonists
+                        in the universe of the
+                        Transformers, a
+                        collection of various toys, cartoons, films, graphic novels, and paperback books first
+                        introduced in 1984. The Autobots, led by Optimus Prime, are opposed by the Decepticons, headed
+                        by Megatron.</p>
+                </div>
+            </div>
+            <!--Vission-->
+            <div class=" row my-3 flex-row-reverse text-center">
+                <div class="col-md text-center">
+                    <img src="decepticon.png" style="width:15rem;">
+                </div>
+                <div class="col-md my-2 text-center">
+                    <h1 style="color: violet; text-shadow:2px 2px black;  font-size:50px; font-weight:bold;">
+                        DECEPTICONS
+                    </h1>
+                    <p class="my-2 fw-bolder" style="color:blue; font-size: 17px;">The Decepticons are the main
+                        antagonists in the fictional universes of the Transformers multimedia franchise.They are
+                        depicted as a faction of sentient robotic lifeforms led by Megatron, identified by a purple
+                        face-like insignia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Characters-->
+
+    <section id="Characters">
+        <div class=" container-fluid" style="font-family:Gemunu Libre;">
+            <div class="row py-4 gy-2 text-center">
+                <div class="col-lg-12">
+                    <h5 class="fw-bolder"
+                        style="color:blue; text-shadow:2px 2px black;  font-size:50px; font-weight:bold;">CHARACTERS
+                    </h5>
+                </div>
+            </div>
+            <div class=" row pb-5 gy-2 text-center my-4 mx-1 text-primary">
+                <div class="col-md-6 mx-auto col-lg-6 col-xl-3">
+                    <img src="Optimus Prime.png" style="width: 15rem;">
+                    <h2 style="color:red; text-shadow:2px 2px black;  font-size:50px; font-weight:bold;">OPTIMUS PRIME
+                    </h2>
+                </div>
+                <div class="col-md-6 mx-auto col-lg-6 col-xl-3">
+                    <img src="bumblebee.png" style="width: 15rem;">
+                    <h2 style="color:yellow; text-shadow:2px 2px black;  font-size:50px; font-weight:bold;">BUMBLE BEE
+                    </h2>
+                </div>
+                <div class="col-md-6 mx-auto col-lg-6 col-xl-3">
+                    <img src="megatron.png" style="width: 15rem;">
+                    <h2 style="color:violet; text-shadow:2px 2px black;  font-size:50px; font-weight:bold;">MEGATRON
+                    </h2>
+                </div>
+                <div class="col-md-6 mx-auto col-lg-6 col-xl-3">
+                    <img src="Sideswipe.png" style="width: 15rem;">
+                    <h2 style="color:gray; text-shadow:2px 2px black;  font-size:50px; font-weight:bold;">SIDESWIPE
+                    </h2>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Calculator-->
+    <section id="Calculator">
+        <div class="container py-3" style="font-family:Gemunu Libre;">
+            <div class="row ">
+                <h1 class="text-center"
+                    style="font-size:50px; color: red; text-shadow:2px 2px black; font-weight:bold;">
+                    TRANSFORMERS
+                    CALCULATOR
+                </h1>
+                <div
+                    class="col-lg-4 col-md-6 col-sm-7 col-9 mx-auto mt-2 mx-4 py-4 text-center bg-warning border border-dark border-5 rounded-3">
+                    <form class="py-3" id="form1" style="background-image: url('optimusface.jpg');  background-repeat: no-repeat;
+                background-attachment: scroll;
+                background-position: center center;
+                background-size: cover;">
+                        <input type="text" class="rounded-3 px-3 text-end" name="answer" id="answer"
+                            style="width: 16rem; height: 4.5rem; font-size:20px; font-weight:bold;">
+                        <br>
+                        <div class="mt-4">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="1" onclick="form1.answer.value += 1">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="2" onclick="form1.answer.value += 2">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="3" onclick="form1.answer.value += 3">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="+" onclick="form1.answer.value += '+' ">
+                        </div>
+                        <div class="mt-2">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="4" onclick="form1.answer.value += 4">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="5" onclick="form1.answer.value += 5">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="6" onclick="form1.answer.value += 6">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="-" onclick="form1.answer.value += '-' ">
+                        </div>
+                        <div class="mt-2">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="7" onclick="form1.answer.value += 7">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="8" onclick="form1.answer.value += 8">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="9" onclick="form1.answer.value += 9">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="*" onclick="form1.answer.value += '*' ">
+                        </div>
+                        <div class="mt-2">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="0" onclick="form1.answer.value += 0">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="." onclick="form1.answer.value += 0">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="/" onclick="form1.answer.value += '/' ">
+                            <input type="button" class="btn btn-primary px-4 py-3 mx-0 border border-dark border-2"
+                                value="=" onclick="form1.answer.value = eval(form1.answer.value)">
+                        </div>
+                        <div class="mt-2">
+                            <input type="button" style="padding-left: 96px; padding-right: 96px; padding-top:10px;
+                        padding-bottom:10px;" class="btn btn-primary text-center border border-dark border-2"
+                                value="Clear All" onclick="form1.answer.value = ' ' ">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="font-family: Gemunu Libre" class="text-white">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-5">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase text-center fw-bold mb-4">
+                        <i class="fas fa-gem texT text-secondary"></i>TRANSFORMERS CALCULATOR
+                    </h6>
+                    <p>
+                        A page that can compute anything with the help of transformers and his allies
+                    </p>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        CHOICES
+                    </h6>
+                    <p>
+                        <a href="#About" class="text-reset">About</a>
+                    </p>
+                    <p>
+                        <a href="#Characters" class="text-reset">Characters</a>
+                    </p>
+                    <p>
+                        <a href="#Calculator" class="text-reset">Calculator</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p>Tanzang Luma III City</p>
+                    <p>harvzadona@gmail.com</p>
+                    <p> + 639951472717</p>
+                    <p> + 639951472717</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+    <!-- Copyright -->
+    <div class="text-center text-white p-4" style="font-family: Gemunu Libre; background-color: rgba(0, 0, 0, 0.025);">
+        © 2022 Copyright:
+        <a class="text-reset fw-bold" href="https://facebook.com/">TransformersCalculator.com</a>
+    </div>
+    <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+</html>
